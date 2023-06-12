@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudhin TC - Personal Website</title>
+    <link rel="stylesheet" href="/sass/styles.css">
+</head>
+<body>
+    <header>
+        <nav role="navigation" aria-label="Main Navigation">
+            <h4 class="logo">The Nav</h4>
+            <ul class="nav-links">
+                <li><a href="#" aria-label="go to Home">Home</a></li>
+                <li><a href="#about" aria-label="go to About">About</a></li>
+                <li><a href="#projects" aria-label="go to Projects">Projects</a></li>
+                <li><a href="#tools" aria-label="go to Contact">Tools</a></li>
+                <li><a href="#contact" aria-label="go to Contact">Contact</a></li>
+            </ul>
+            <button class="burger" aria-label="Toggle Menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </button> 
+        </nav>
+    </header>
+
+    <main role="main">
+        <section class="home" role="region" aria-label="Home section">
+            <div class="introduction">
+                <h1 class="intro-text1">Hi, I'm <span class="name">Sudhin</span></h1>
+                <h2 class="intro-text2">FULL STACK DEVELOPER</h2>
+                <button class="know-more"><a href="#about" aria-label="Learn more about Sudhin">Get to know me <span class="arrow">↓</span></a></button>
+            </div>
+        </section>
+
+        <section id="about" class="about" role="region" aria-label="About section">
+            <div class="subheading">
+                <div class="header-container">
+                  <h2 class="section-header">About</h2>
+                </div>
+                <hr class="line" />
+            </div>
+            <div class="about-container">
+                <div class="about-content">
+                    <div class="profile-picture">
+                        <img src="https://placehold.co/600x400" alt="Sudhin's profile picture">
+                    </div>
+                    <div class="profile-details">
+                        <h3 class="name">Hello Everyone I'm <span class="secondary">Sudhin TC</span></h3>
+                        <p class="description">I'm a JavaScript Full Stack Developer based in India. I have a Master's degree in Computer Applications (MCA) and a passion for creating innovative and user-friendly web applications.</p><br>
+                        <p class="description">In my journey as a developer, I have gained experience in building responsive and scalable web applications using modern technologies. My expertise lies in JavaScript, Node.js, Express, React, and various front-end frameworks and libraries.</p><br>
+                    </div>
+                </div>
+                <p class="description hobby">Aside from coding, I also enjoy <span class="secondary">Football</span> , <span class="secondary">Movies</span> and <span class="secondary">Working out</span></p><br>
+            </div>
+        </section>
+
+        <section id="projects" class="projects" role="region" aria-label="projects section">
+            <div class="subheading">
+                <div class="header-container">
+                  <h2 class="section-header">Projects</h2>
+                </div>
+                <hr class="line" />
+            </div>
+            <div class="project-container">
+                <div class="project-content">
+                    <div class="weather-app project-group odd">
+                        <div class="project-description">
+                            <h3 class="project-title secondary">Weather App</h3>
+                            <p class="tech-stack"><span class="secondary">Tech Stack</span> : JavaScript, HTML, CSS, Jest, OpenWeatherMap API.</p>
+                            <p class="about-project">This app shows the current weather of a city. It uses OpenWeatherMap API to fetch the weather data. The app changes the background according to different weather conditions.</p>
+                            <div class="project-buttons">
+                                <button class="live-demo-btn">Live Demo</button>
+                                <button class="repository-btn"> Repository</button>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400" alt="weather app image">
+                        </div>
+                    </div>
+                    <div class="weather-app project-group even">
+                        <div class="project-description">
+                            <h3 class="project-title secondary">Rock Paper Scissor</h3>
+                            <p class="tech-stack"><span class="secondary">Tech Stack</span> : JavaScript, HTML, CSS, Gulp.</p>
+                            <p class="about-project">The Rock Paper Scissors app is a fun and interactive game that recreates the classic hand game. It allows users to compete against the computer in a virtual version of Rock Paper Scissors.</p>
+                            <div class="project-buttons">
+                                <button class="live-demo-btn">Live Demo</button>
+                                <button class="repository-btn">Repository</button>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400" alt="Rock Paper Scissor app image">
+                        </div>
+                    </div>
+                    <div class="weather-app project-group odd">
+                        <div class="project-description">
+                            <h3 class="project-title secondary">Restaurant Website</h3>
+                            <p class="tech-stack"><span class="secondary">Tech Stack</span> : JavaScript, HTML, CSS, Jest, Webpack.</p>
+                            <p class="about-project">The restaurant webpage is a website that showcases information about a restaurant. It typically includes details about the restaurant's concept, cuisine, ambiance, menu offerings, and location.</p>
+                            <div class="project-buttons">
+                                <button class="live-demo-btn">Live Demo</button>
+                                <button class="repository-btn">Repository</button>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400" alt="restaurant webpage image">
+                        </div>
+                    </div>
+                    <div class="weather-app project-group even">
+                        <div class="project-description">
+                            <h3 class="project-title secondary">Calculator App</h3>
+                            <p class="tech-stack"><span class="secondary">Tech Stack</span> : JavaScript, HTML, CSS, Tailwind.</p>
+                            <p class="about-project">Calculator app is a software application that allows users to perform mathematical calculations on a computer. It provides a user-friendly interface with buttons representing numbers, arithmetic operations and other mathematical functions. </p>
+                            <div class="project-buttons">
+                                <button class="live-demo-btn">Live Demo</button>
+                                <button class="repository-btn">Repository</button>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400" alt="Calculator app image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools" class="tools" role="region" aria-label="tools section">
+            <div class="subheading">
+                <div class="header-container">
+                  <h2 class="section-header">Tools</h2>
+                </div>
+                <hr class="line" />
+            </div>
+            <div class="tools-container">
+                <div class="tool-content">
+                    <div class="tool-detail">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html5 logo" />
+                        <p>HTML5</p>
+                    </div>
+                    <div class="tool-detail">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css3 logo" />
+                        <p>CSS3</p>
+                    </div>
+                    <div class="tool-detail">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript logo" />
+                        <p>JS</p>
+                    </div>
+                    <div class="tool-detail">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gulp/gulp-plain.svg" alt="gulp logo"/>
+                        <p>GULP</p>
+                    </div>
+                    <div class="tool-detail">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="sass logo"/>
+                        <p>SASS</p>
+                    </div>
+                    <div class="tool-detail">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react logo"/>
+                        <p>REACT</p>
+                    </div>
+                    <div class="tool-detail">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="jest logo" />
+                        <p>JEST</p>
+                    </div>
+                    <div class="tool-detail">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git logo"/>
+                        <p>GIT</p>
+                    </div>
+                    <div class="tool-detail">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="npm logo" />
+                        <p>NPM</p>
+                    </div>
+                    <div class="tool-detail">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="node js logo"/>
+                        <p>NODE JS</p>
+                    </div>
+                    <div class="tool-detail">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="mongodb logo"/>
+                        <p>MONGO DB</p>
+                    </div>
+                    <div class="tool-detail">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" alt="webpack logo"/>
+                        <p>WEBPACK</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact" role="region" aria-label="contact section">
+            <div class="subheading">
+                <div class="header-container">
+                  <h2 class="section-header">Contact</h2>
+                </div>
+                <hr class="line" />
+            </div>
+            <div class="contact-container section-content">
+                <div class="form-prompt">
+                  <p class="social-prompt">If you have an opportunity to share, or would like to discuss anything, you can leave your details below.</p>
+                </div>
+                <form class="contact-form">
+                  <input class="input-name" type="text" name="name" aria-label="Name" placeholder="Name" maxlength="128" required />
+                  <input class="input-email" type="email" name="email" aria-label="Email" placeholder="E-mail" maxlength="128" required />
+                  <textarea class="input-message" name="message" aira-label="Message" placeholder="Message" required></textarea>
+                  <div class="button-container">
+                    <p class="notification"></p>
+                    <button class="form-button" type="submit">Submit</button>
+                  </div>
+                </form> 
+              </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="" aria-details="click to go to sudhin's twitter profile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" alt="Twitter logo" aria-label="Twitter"></a>
+            <a href="" aria-details="click to go to sudhin's linkedin profile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn logo" aria-label="LinkedIn"></a>
+            <a href="https://github.com/Sudhintc" target="_blank" aria-details="click to go to sudhin's github profile" ><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub logo" aria-label="GitHub"></a>        
+        </div>
+    </footer>
+    
+        
+    <script src="/app.js"></script>
+</body>
+</html>

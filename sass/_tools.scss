@@ -1,0 +1,29 @@
+.tools-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.tool-content{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    img{
+        width: 100px;
+    }
+}
+.tool-detail{
+    color:$primaryColor;
+    text-align: center;
+    margin: 50px;
+}
+
+@media screen and (max-width:768px){
+    .tool-content{
+        img{
+            width:50px;
+        }
+    }
+}
