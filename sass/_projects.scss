@@ -1,0 +1,71 @@
+@import "variables";
+
+.project-content{
+    display: flex;
+    flex-direction: column;
+    color: $primaryColor;
+    font-size: 1.2rem;
+    .project-description{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+        line-height: 1.5;
+        letter-spacing: 2px;
+        width: 50%;
+        padding: 20px;
+    }
+}
+.project-buttons {
+    margin-top: 20px;
+    button{
+        padding: 10px;
+        border-radius: 5px;
+        background: none;
+        border: 2px solid $secondaryColor;
+        color:$primaryColor;
+        cursor: pointer;
+        &:hover{
+            background-color: $secondaryColor;
+            transition: .5s;
+        }
+    }
+}
+.project-group{
+   display: flex;
+   justify-content:flex-start;
+   margin-top: 100px;
+
+}
+
+.project-image{
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+img{
+    width: 80%;
+}
+}
+
+.even{
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width:768px){
+    .project-content{
+        font-size: 1rem;
+        .project-description{
+            width: 80%;
+        }
+    }
+    .project-group{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-image{
+        width: 80%;
+    }
+}
